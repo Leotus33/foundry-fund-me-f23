@@ -6,9 +6,16 @@ out/
 !/broadcast
 /broadcast/*/31337/
 /broadcast/**/dry-run/
+/broadcast
+/logs
 
 # Docs
 docs/
 
-# Dotenv file
+# Dotenv file that we don't want to publish to GIT
 .env
+
+# Others
+.gas-snapshot
+
+
